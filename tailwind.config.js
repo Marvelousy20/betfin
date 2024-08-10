@@ -31,6 +31,8 @@ module.exports = {
         secondary: "#201C40",
         secondaryLight: "#292546",
         secondaryLighter: "#201C4080",
+        yellow: "#FFC800",
+        bluish: "#00ACE7",
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
@@ -51,6 +53,9 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+      },
+      backgroundImage: {
+        "active-gradient": "linear-gradient(135deg, #131624 0%, #7366FF 100%)",
       },
       borderRadius: {
         lg: "var(--radius)",
